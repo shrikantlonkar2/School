@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* navbar section start */
+.navbar .nav-link {
+    padding: 32px;
+}
+.navbar-nav .nav-item .active{
+    background-color: red;
+}
+.navbar .nav-link :hover{
+    color: white;
+    background-color: red;
+}
+.navbar-nav .nav-item a:hover{
+    color: white;
+    background-color: red;
+}
+.navbar .dropdown .dropdown-menu{
+    border: none;
+    width: 250px;
+    border-radius: 0px;
+    padding: 0px;
+}
+.navbar .dropdown:hover{
+    background-color: red;
+    color: white;
+}
+
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+    border: none;
+}
+.navabar .dropdown .dropdown-menu:hover{
+    background-color: red;
+}
+/* navbar section end */
+
+.col-3{
+    border: 0px;
+    border-radius: 20px;
+}
+.col-3 img{
+    max-width: 100%;
+    height: auto;
+}
+#popular{
+    background:url(../img/class-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#choice{
+    background: url(../img/choice-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+#gallery{
+    background: url(../img/gallery-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.gallery .col-9{
+    margin-top: 50px;
+}
+.gallery .col-9 img{
+    width: 300px;
+    padding: 5px;
+}
+
+#enroll{
+    background: url(../img/enroll-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.enroll a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.footer a{
+    text-decoration: none;
+}
